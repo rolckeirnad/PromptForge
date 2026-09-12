@@ -7,7 +7,14 @@ authors = [
     { name = "Daniel Gallardo", email = "100047357+rolckeirnad@users.noreply.github.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "fastapi>=0.141.1",
+    "langchain>=1.4.0",
+    "openai>=3.13.0",
+    "pydantic>=2.13.5",
+    "python-multipart>=0.0.32",
+    "uvicorn>=0.52.4",
+]
 
 [project.scripts]
 backend = "backend:main"
