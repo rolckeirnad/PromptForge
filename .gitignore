@@ -1,0 +1,18 @@
+# Python / FastAPI
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.pytest_cache/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+.pnpm-store/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
