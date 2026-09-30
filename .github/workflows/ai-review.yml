@@ -13,7 +13,7 @@ jobs:
       (github.event.issue.pull_request &&
        contains(github.event.comment.body, '/gemini-review') &&
        github.event.comment.user.type != 'Bot')
-    uses: rolckeirnad/github-actions/.github/workflows/gemini-review.yml@v1
+    uses: rolckeirnad/github-actions/.github/workflows/gemini-review.yml@v1.0.0
     secrets: inherit
     permissions:
       contents: read
